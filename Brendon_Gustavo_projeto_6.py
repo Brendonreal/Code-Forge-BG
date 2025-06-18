@@ -86,7 +86,7 @@ def exibir_menu():
         print(f"{azul}2. Cadastrar Jogo")
         print(f"{amarelo}3. Ver Jogo")
         print(f"{magenta}4. Ver Jogadores")
-        print(f"{ciano}5. Anotar Resultados")
+        print(f"{ciano}5. Marcar como acontecido")
         print(f"{vermelho}6. Sair")
         escolha = str(input("Escolha uma opção: "))
         if escolha == "1":
