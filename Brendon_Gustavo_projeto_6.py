@@ -62,8 +62,8 @@ def Ver_Jogadores():
         ConsultarVerdadeiro += 1
     print()
 
-def Anotar_Resultados():
-    print(f"{ciano} Anotar Resultados")
+def Marcacomo_Acontecido():
+    print(f"{ciano} Marca como Acontecido")
     if len(AbasdeJogos) == 0:
         return
     try:
@@ -98,7 +98,7 @@ def exibir_menu():
         elif escolha == "4":
             Ver_Jogadores()
         elif escolha == "5":
-            Anotar_Resultados()
+            Marcacomo_Acontecido()
         elif escolha == "6":
             print(f"{vermelho}Saindo do sistema.{CorNormal}")
             break
