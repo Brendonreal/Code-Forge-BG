@@ -81,7 +81,7 @@ def Anotar_Resultados():
 
 def exibir_menu():
     while True:
-        print("\n\033[1m=== Sistema de Sessões de Estudo ===\033[0m")
+        print("\n\033[1m=== Sistema de Gerenciamento de Jogos e Jogadores ===\033[0m")
         print(f"{verde}1. Cadastrar Jogador")
         print(f"{azul}2. Cadastrar Jogo")
         print(f"{amarelo}3. Ver Jogo")
